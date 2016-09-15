@@ -29,7 +29,11 @@ public class NumberRevo {
 		
 		//Output the result
 		System.out.println("The reverse of the number is " + result);
+		
+		//Close Scanner
+		s.close();
 	}
+	
 	
 	public static int reverse(int n) {
 		
